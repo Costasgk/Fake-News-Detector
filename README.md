@@ -2,10 +2,10 @@
 
 **Tools used:**
 
-*Python
-*Tensorflow
-*TFID, CountVectorizer
-*Flask, HTML, CSS
+* Python
+* Tensorflow
+* TFID, CountVectorizer
+* Flask, HTML, CSS
 
 ![Screenshot](screenshot.png)
 
