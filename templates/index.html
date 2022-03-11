@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p class = "title"> FAKE NEWS DETECTOR</p>
+    <div class = "container">
+        <form class = "formArea" action="/" method="POST">
+            <textarea class="textField" rows="5" name="text"
+            placeholder="Insert the news here" required>{{text}}</textarea>
+            <div class = "buttons">
+                <input class = "button2" type = "submit" name = "lr_button" value = "Logistic Regression"></input>
+                <input class = "button1" type = "submit" name = "svm_button" value = "SVM"></input>
+                <!-- <input class = "button3" type = "submit" name = "nn_button" value = "Neural Networks"></input> -->
+            </div>
+            <div class = "result">
+            <div class = "prediction">
+                {{predict_content}}
+            </div>
+        </form>
+    </div>
+</body>
+</html>
