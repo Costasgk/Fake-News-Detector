@@ -1,6 +1,7 @@
 # Fake-News-Detector
 
 **Tools used:**
+
 *Python
 *Tensorflow
 *TFID, CountVectorizer
