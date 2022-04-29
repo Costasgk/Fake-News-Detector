@@ -1,6 +1,6 @@
 # Fake News Detector web application
 
-The Fake News Detector, is a natural language processing web application. Two classification algorithms were used: ***Logistic Regression*** & ***SVM***. In the end, you get to choose, which of those two algorithms you want your prediction to be based on. 
+The Fake News Detector, is a natural language processing web application. Two classification algorithms were used: ***Logistic Regression*** & ***SVM***. In the end, you get to choose which of those two algorithms you want your prediction to be based on. 
 
 **The app was created using:**
 - Frontend: **HTML** & **CSS**
